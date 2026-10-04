@@ -1,0 +1,16 @@
+# Local environment and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+settings.json
+browser_profile*/
+_workflow_progress.json
+_workflow_progress.tmp
+_workflow_log.txt
+_workflow_error.png
+*.part
+*.pdf
+*.doc
+*.docx
+*.zip
