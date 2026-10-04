@@ -59,3 +59,9 @@ Windows、带 tkinter 的 **Python 3.10 或以上**、已安装的 **Google Chro
 只上传：`workflow.py`、`requirements.txt`、`setup.bat`、`start.bat`、`README.md`、`README.zh-CN.md`、`README.fr.md`、`.gitignore`。
 
 不上传：个人 Word/PDF、`.venv`、浏览器配置目录、`settings.json`、进度文件、日志、错误截图。`.gitignore` 对通过 Git 添加文件生效，不会替你过滤网页上手动上传的文件。
+
+## 中文水印字体
+
+水印内容包含中文时，请在程序的字体选项中选择 `Arial unicode ms`。此字体已在实际运行中验证可正常生成中文水印。
+
+其他字体可能导致中文显示异常，或导致 iLovePDF 添加水印失败。批量处理前，请检查第一个文件的水印效果。
